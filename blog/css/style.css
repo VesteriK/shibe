@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(195,135,34);
+    background: linear-gradient(0deg, rgba(195,135,34,1) 0%, rgba(255,250,240,1) 100%) center center fixed;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+header {
+    font-size: 2em;
+    padding: 20px;
+}
+
+main{
+    padding: 20px 10px;
+    background-color: rgba(255, 255, 255, 0.479);
+    border: 1px solid rgb(175, 116, 7);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.pieni{
+    background-image: url(../media/doge.png);
+    width: 100px;
+    height: 100px;
+    background-size: 100;
+    position: fixed;
+    float: left bottom;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+    border-radius: 50%;
+    opacity: 0.5;
+
+}
+
+h1 {
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+}
+
+h6{
+    bottom: 0px;
+    text-align: left;
+}
+
+section {
+    width: 70%;
+    float: left;
+    padding: 10px 20px;
+}
+
+aside {
+    width: 30%;
+    float: right;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.479);
+    border: 1px solid rgb(175, 116, 7);
+    border-radius: 10px;
+
+}
+
+article{
+    padding: 10px;
+    border-bottom: 1px solid rgb(175, 116, 7);
+}
+
+article:last-child{
+    border-bottom: 0px solid rgb(175, 116, 7);
+}
+
+footer {
+    padding: 40px;
+    text-align: right;
+}
+
+#wiki{
+    text-align: right;
+    font-size: 0.5rem;
+} 
+
+
+a{
+    color: rgb(255, 171, 61);
+    text-decoration: none;
+    border: 2px solid rgb(228, 171, 66);
+}
+
+a.linkki{
+    background-color: rgba(255, 255, 255, 0.767);
+    border-radius: 5px;
+    text-align: center;
+}
+
+a:hover{
+    color: rgb(165, 101, 42);
+    text-decoration: underline;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px; 
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(255, 174, 0, 0.5);
+  }
+
+#apua {
+    display: block;
+    box-shadow: none;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px solid;
+    padding: 5px;
+    width: 100px; 
+    font-size: 0.5em;
+}
+
+#apuateksti{
+    font-size: xx-small;
+    text-align: center;
+}
+
