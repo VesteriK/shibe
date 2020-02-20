@@ -1,0 +1,127 @@
+
+body {
+    background: rgb(195,135,34);
+    background: linear-gradient(0deg, rgba(195,135,34,1) 0%, rgba(255,250,240,1) 100%) center center fixed;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    font-style: italic;
+    padding: 10px;
+}
+
+#wiki {
+    font-size: xx-small;
+    text-align: end;
+}
+
+
+main {
+    background-color: rgba(255, 255, 255, 0.479);
+    border: 1px solid rgb(175, 116, 7);
+    border-radius: 10px;
+    padding: 10px;    
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+#video {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(560px, 1fr) );
+    grid-template-rows: repeat( auto-fit, minmax(315px, 1fr) );;
+}
+
+.teksti {
+    grid-column: 1 / span 7;
+    grid-row: 1 / span 4;
+    padding: 20px;
+}
+
+article{
+    padding: 10px;
+    border-bottom: 1px solid rgb(175, 116, 7);
+}
+
+article:last-child{
+    border-bottom: 0px solid rgb(175, 116, 7);
+}
+
+.palkki {
+    grid-column: -1 / -4;
+    grid-row: 1 / span 3;
+    background-color: rgba(255, 255, 255, 0.479);
+    border: 1px solid rgb(175, 116, 7);
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;    
+}
+
+footer {
+    text-align: right;
+    padding: 10px;
+}
+     
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px; 
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(255, 174, 0, 0.5);
+}
+
+a.linkki{
+    color: rgb(255, 171, 61);
+    text-decoration: none;
+    border: 2px solid rgb(228, 171, 66);
+    background-color: rgba(255, 255, 255, 0.767);
+    border-radius: 5px;
+    text-align: center;
+}
+
+a:hover{
+    color: rgb(165, 101, 42);
+    text-decoration: underline;
+}
+
+#apua {
+    display: block;
+    box-shadow: none;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px solid;
+    padding: 5px;
+    width: 100px; 
+    font-size: 0.5em;
+}
+
+#apuateksti{
+    font-size: xx-small;
+    text-align: center;
+}
+
+.pieni{
+    background-image: url(../media/doge.png);
+    width: 100px;
+    height: 100px;
+    background-size: 100;
+    position: fixed;
+    float: left bottom;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+    border-radius: 50%;
+    opacity: 0.5;
+
+}
