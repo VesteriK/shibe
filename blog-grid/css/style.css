@@ -31,6 +31,7 @@ main {
     grid-template-rows: repeat(4, 1fr);
 }
 
+
 #video {
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(560px, 1fr) );
@@ -124,4 +125,18 @@ a:hover{
     border-radius: 50%;
     opacity: 0.5;
 
+}
+
+@media (max-width: 1100px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    .teksti {
+        grid-column: 1 / -1;
+    }
+
+    .palkki {
+        grid-column: 1 / -1;
+        grid-row: -1;
+    }
 }
